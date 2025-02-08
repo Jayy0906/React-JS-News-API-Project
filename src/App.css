@@ -1,0 +1,64 @@
+body {
+  background-color: #6a0dad; /* Deep Violet */
+  color: #ffffff;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background: rgba(
+    45,
+    27,
+    85,
+    0.9
+  ) !important; /* Dark Violet with Transparency */
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.navbar-brand {
+  font-size: 24px;
+  font-weight: bold;
+  color: #f8c8dc !important; /* Light Pink */
+}
+
+.nav-link {
+  color: #e0d9ff !important; /* Soft Lavender */
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link:hover {
+  color: #ffcc00 !important; /* Gold */
+}
+
+.card {
+  background: linear-gradient(135deg, #2d1b55, #432685);
+  border: none;
+  color: white;
+  border-radius: 12px;
+}
+
+.card-title {
+  color: #ffcc00; /* Gold */
+}
+
+button {
+  background-color: #ffcc00;
+  border: none;
+  padding: 10px 16px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #f8c8dc;
+  color: black;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
